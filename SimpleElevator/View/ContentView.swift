@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = ElevatorViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            
+            ZStack {
+                Color.white
+                    .ignoresSafeArea()
+                
+                VStack(spacing: 20) {
+                    currentFloorText
+                    directionText
+                    
+                    HStack {
+                        upButton
+                        downButton
+                    }
+                    if viewModel.isMoving {
+                        ProgressView()
+                    }
+                    
+                    Spacer()
+
+                }
+                .padding()
+
+            }
+            .navigationTitle("Simple Elevator")
         }
-        .padding()
+        
     }
 }
 
