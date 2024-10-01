@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AC45DB22CABF2F50062DC54 /* SimpleElevatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC45DB12CABF2F50062DC54 /* SimpleElevatorApp.swift */; };
+		6AC45DB42CABF2F50062DC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC45DB32CABF2F50062DC54 /* ContentView.swift */; };
+		6AC45DB62CABF2F80062DC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC45DB52CABF2F80062DC54 /* Assets.xcassets */; };
+		6AC45DB92CABF2F80062DC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC45DB82CABF2F80062DC54 /* Preview Assets.xcassets */; };
+		6AC45DC32CABF2F90062DC54 /* SimpleElevatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC45DC22CABF2F90062DC54 /* SimpleElevatorTests.swift */; };
+		6AC45DCD2CABF2F90062DC54 /* SimpleElevatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC45DCC2CABF2F90062DC54 /* SimpleElevatorUITests.swift */; };
+		6AC45DCF2CABF2F90062DC54 /* SimpleElevatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC45DCE2CABF2F90062DC54 /* SimpleElevatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AC45DBF2CABF2F90062DC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC45DA62CABF2F50062DC54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AC45DAD2CABF2F50062DC54;
+			remoteInfo = SimpleElevator;
+		};
+		6AC45DC92CABF2F90062DC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC45DA62CABF2F50062DC54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AC45DAD2CABF2F50062DC54;
+			remoteInfo = SimpleElevator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AC45DAE2CABF2F50062DC54 /* SimpleElevator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleElevator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC45DB12CABF2F50062DC54 /* SimpleElevatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleElevatorApp.swift; sourceTree = "<group>"; };
+		6AC45DB32CABF2F50062DC54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AC45DB52CABF2F80062DC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AC45DB82CABF2F80062DC54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AC45DBE2CABF2F90062DC54 /* SimpleElevatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleElevatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC45DC22CABF2F90062DC54 /* SimpleElevatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleElevatorTests.swift; sourceTree = "<group>"; };
+		6AC45DC82CABF2F90062DC54 /* SimpleElevatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleElevatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC45DCC2CABF2F90062DC54 /* SimpleElevatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleElevatorUITests.swift; sourceTree = "<group>"; };
+		6AC45DCE2CABF2F90062DC54 /* SimpleElevatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleElevatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AC45DAB2CABF2F50062DC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DBB2CABF2F90062DC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DC52CABF2F90062DC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AC45DA52CABF2F50062DC54 = {
+			isa = PBXGroup;
+			children = (
+				6AC45DB02CABF2F50062DC54 /* SimpleElevator */,
+				6AC45DC12CABF2F90062DC54 /* SimpleElevatorTests */,
+				6AC45DCB2CABF2F90062DC54 /* SimpleElevatorUITests */,
+				6AC45DAF2CABF2F50062DC54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AC45DAF2CABF2F50062DC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DAE2CABF2F50062DC54 /* SimpleElevator.app */,
+				6AC45DBE2CABF2F90062DC54 /* SimpleElevatorTests.xctest */,
+				6AC45DC82CABF2F90062DC54 /* SimpleElevatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AC45DB02CABF2F50062DC54 /* SimpleElevator */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DB12CABF2F50062DC54 /* SimpleElevatorApp.swift */,
+				6AC45DB32CABF2F50062DC54 /* ContentView.swift */,
+				6AC45DB52CABF2F80062DC54 /* Assets.xcassets */,
+				6AC45DB72CABF2F80062DC54 /* Preview Content */,
+			);
+			path = SimpleElevator;
+			sourceTree = "<group>";
+		};
+		6AC45DB72CABF2F80062DC54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DB82CABF2F80062DC54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AC45DC12CABF2F90062DC54 /* SimpleElevatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DC22CABF2F90062DC54 /* SimpleElevatorTests.swift */,
+			);
+			path = SimpleElevatorTests;
+			sourceTree = "<group>";
+		};
+		6AC45DCB2CABF2F90062DC54 /* SimpleElevatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DCC2CABF2F90062DC54 /* SimpleElevatorUITests.swift */,
+				6AC45DCE2CABF2F90062DC54 /* SimpleElevatorUITestsLaunchTests.swift */,
+			);
+			path = SimpleElevatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AC45DAD2CABF2F50062DC54 /* SimpleElevator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC45DD22CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevator" */;
+			buildPhases = (
+				6AC45DAA2CABF2F50062DC54 /* Sources */,
+				6AC45DAB2CABF2F50062DC54 /* Frameworks */,
+				6AC45DAC2CABF2F50062DC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleElevator;
+			productName = SimpleElevator;
+			productReference = 6AC45DAE2CABF2F50062DC54 /* SimpleElevator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AC45DBD2CABF2F90062DC54 /* SimpleElevatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC45DD52CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevatorTests" */;
+			buildPhases = (
+				6AC45DBA2CABF2F90062DC54 /* Sources */,
+				6AC45DBB2CABF2F90062DC54 /* Frameworks */,
+				6AC45DBC2CABF2F90062DC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC45DC02CABF2F90062DC54 /* PBXTargetDependency */,
+			);
+			name = SimpleElevatorTests;
+			productName = SimpleElevatorTests;
+			productReference = 6AC45DBE2CABF2F90062DC54 /* SimpleElevatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AC45DC72CABF2F90062DC54 /* SimpleElevatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC45DD82CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevatorUITests" */;
+			buildPhases = (
+				6AC45DC42CABF2F90062DC54 /* Sources */,
+				6AC45DC52CABF2F90062DC54 /* Frameworks */,
+				6AC45DC62CABF2F90062DC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC45DCA2CABF2F90062DC54 /* PBXTargetDependency */,
+			);
+			name = SimpleElevatorUITests;
+			productName = SimpleElevatorUITests;
+			productReference = 6AC45DC82CABF2F90062DC54 /* SimpleElevatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AC45DA62CABF2F50062DC54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6AC45DAD2CABF2F50062DC54 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6AC45DBD2CABF2F90062DC54 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AC45DAD2CABF2F50062DC54;
+					};
+					6AC45DC72CABF2F90062DC54 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AC45DAD2CABF2F50062DC54;
+					};
+				};
+			};
+			buildConfigurationList = 6AC45DA92CABF2F50062DC54 /* Build configuration list for PBXProject "SimpleElevator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AC45DA52CABF2F50062DC54;
+			productRefGroup = 6AC45DAF2CABF2F50062DC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AC45DAD2CABF2F50062DC54 /* SimpleElevator */,
+				6AC45DBD2CABF2F90062DC54 /* SimpleElevatorTests */,
+				6AC45DC72CABF2F90062DC54 /* SimpleElevatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AC45DAC2CABF2F50062DC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC45DB92CABF2F80062DC54 /* Preview Assets.xcassets in Resources */,
+				6AC45DB62CABF2F80062DC54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DBC2CABF2F90062DC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DC62CABF2F90062DC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AC45DAA2CABF2F50062DC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC45DB42CABF2F50062DC54 /* ContentView.swift in Sources */,
+				6AC45DB22CABF2F50062DC54 /* SimpleElevatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DBA2CABF2F90062DC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC45DC32CABF2F90062DC54 /* SimpleElevatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC45DC42CABF2F90062DC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC45DCF2CABF2F90062DC54 /* SimpleElevatorUITestsLaunchTests.swift in Sources */,
+				6AC45DCD2CABF2F90062DC54 /* SimpleElevatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AC45DC02CABF2F90062DC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AC45DAD2CABF2F50062DC54 /* SimpleElevator */;
+			targetProxy = 6AC45DBF2CABF2F90062DC54 /* PBXContainerItemProxy */;
+		};
+		6AC45DCA2CABF2F90062DC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AC45DAD2CABF2F50062DC54 /* SimpleElevator */;
+			targetProxy = 6AC45DC92CABF2F90062DC54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AC45DD02CABF2F90062DC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AC45DD12CABF2F90062DC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AC45DD32CABF2F90062DC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleElevator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AC45DD42CABF2F90062DC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleElevator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AC45DD62CABF2F90062DC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleElevator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleElevator";
+			};
+			name = Debug;
+		};
+		6AC45DD72CABF2F90062DC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleElevator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleElevator";
+			};
+			name = Release;
+		};
+		6AC45DD92CABF2F90062DC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleElevator;
+			};
+			name = Debug;
+		};
+		6AC45DDA2CABF2F90062DC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Synergym.SimpleElevatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleElevator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AC45DA92CABF2F50062DC54 /* Build configuration list for PBXProject "SimpleElevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC45DD02CABF2F90062DC54 /* Debug */,
+				6AC45DD12CABF2F90062DC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC45DD22CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC45DD32CABF2F90062DC54 /* Debug */,
+				6AC45DD42CABF2F90062DC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC45DD52CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC45DD62CABF2F90062DC54 /* Debug */,
+				6AC45DD72CABF2F90062DC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC45DD82CABF2F90062DC54 /* Build configuration list for PBXNativeTarget "SimpleElevatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC45DD92CABF2F90062DC54 /* Debug */,
+				6AC45DDA2CABF2F90062DC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AC45DA62CABF2F50062DC54 /* Project object */;
+}
